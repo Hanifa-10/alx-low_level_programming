@@ -14,7 +14,7 @@ while (numbers <= 9)
     {
 putchar(numbers++ + '0');
 
-if (numbers <= 8)
+if (numbers <= 9)
 	{
 putchar(',');
 putchar(' ');
