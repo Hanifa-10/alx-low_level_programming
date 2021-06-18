@@ -10,7 +10,7 @@ int main(void)
 {
 int v, w;
 
-for (v = o; v <9; v++)
+for (v = 0; v <9; v++)
 {
 for (w = v + 1; w < 10; w++)
 {
