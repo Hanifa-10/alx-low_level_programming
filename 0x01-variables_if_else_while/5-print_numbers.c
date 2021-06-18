@@ -1,4 +1,4 @@
-#include <kstdio.h>
+#include <stdio.h>
 
 /**
 * main - print all digits of base 10 starting 0
