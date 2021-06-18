@@ -8,7 +8,7 @@
 
 int main(void)
 {
-char base = '0', nine ='9';
+char base = '0', nine = '9';
 
 while (base <= nine)
 putchar(base++);
