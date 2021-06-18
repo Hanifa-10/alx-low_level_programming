@@ -20,7 +20,7 @@ putchar((v % 10) + '0');
 putchar((w % 10) + '0');
 putchar((z % 10) + '0');
 
-if (v == 7 && w ==8 && z == 9)
+if (v == 7 && w == 8 && z == 9)
 continue;
 
 putchar(',');
