@@ -16,7 +16,7 @@ for (; v < 99; v++)
 {
 for (w = v + 1; w <= 99; w++)
 {
-if v < w)
+if (v < w)
 {
 putchar (v / 10 + 48);
 putchar (v % 10 + 48);
