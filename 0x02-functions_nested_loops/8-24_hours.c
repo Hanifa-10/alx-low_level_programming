@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /**
-* jack_bauer - prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
+* jack_bauer - prints every minute of the day of Jack Bauer,
+* starting from 00:00 to 23:59
 */
 
 void jack_bauer(void)
@@ -20,14 +21,15 @@ mUnits = minute % 10;
 _putchar(hTens + '0');
 _putchar(hUnits + '0');
 
-_putchar(':');
-			
+_putchar(':');			
 _putchar(mTens + '0');
 _putchar(mUnits + '0');
 
 _putchar('\n');
 
-}/* minutes */
-}/* hours */
+} 
+/* minutes */
+}
+/* hours */
 }
 
