@@ -10,7 +10,7 @@ int main(void)
 {
 int numbers = 0, sum = 0, limit = 1023;
 
-while (numbers <= limit
+while (numbers <= limit)
 {
 if (numbers % 3 == 0 || numbers % 5 == 0)
 			
@@ -22,5 +22,6 @@ numbers++;
 printf("%i\n", sum);
 
 return (0);
+
 }
 
