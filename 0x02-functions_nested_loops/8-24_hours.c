@@ -21,13 +21,13 @@ mUnits = minute % 10;
 _putchar(hTens + '0');
 _putchar(hUnits + '0');
 
-_putchar(':');			
+_putchar(':');
 _putchar(mTens + '0');
 _putchar(mUnits + '0');
 
 _putchar('\n');
 
-} 
+}
 /* minutes */
 }
 /* hours */
