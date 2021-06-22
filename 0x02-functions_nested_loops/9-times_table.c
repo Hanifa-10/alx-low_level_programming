@@ -25,7 +25,7 @@ _putchar(result + '0');
 }
 else if (result > 9)
 {
-_putchar((result / 10) +'0');
+_putchar((result / 10) + '0');
 _putchar((result % 10) + '0');
 }
 if (column < 9)
