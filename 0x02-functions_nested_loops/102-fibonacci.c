@@ -16,7 +16,7 @@ long int fSum = 0;
 
 for (i = 0; i < count; i++)
 {
-fSum = fNum0 +fNum1;
+fSum = fNum0 + fNum1;
 fNum0 = fNum1;
 fNum1 = fSum;
 
