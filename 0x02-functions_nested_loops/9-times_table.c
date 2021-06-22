@@ -12,7 +12,7 @@ int result;
 
 for (row = 0; row < limit; row++)
 {
-for (column = o; column < limit; column++)
+for (column = 0; column < limit; column++)
 {
 result = row * column;
 
