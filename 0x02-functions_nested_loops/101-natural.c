@@ -13,7 +13,7 @@ int numbers = 0, sum = 0, limit = 1023;
 while (numbers <= limit)
 {
 if (numbers % 3 == 0 || numbers % 5 == 0)
-			
+
 sum += numbers;
 
 numbers++;
