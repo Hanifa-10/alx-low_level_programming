@@ -26,7 +26,7 @@ _putchar(' ');
 }
 _putchar(result + '0');
 }
-else if (result >9 && result <= 99)
+else if (result > 9 && result <= 99)
 {
 _putchar(' ');
 _putchar((result / 10) + '0');
@@ -35,7 +35,7 @@ _putchar((result % 10) + '0');
 else if (result >= 100)
 {
 _putchar((result / 100) + '0');
-_putchar((result /10 % 10) + '0');
+_putchar((result / 10 % 10) + '0');
 _putchar((result % 10) + '0');
 }
 if (j < n)
