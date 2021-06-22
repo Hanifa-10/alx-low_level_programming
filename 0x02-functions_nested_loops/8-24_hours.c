@@ -12,7 +12,7 @@ for (hour = 0; hour <= 23; hour++)
 hTens = hour / 10;
 hUnits = hour % 10;
 
-for (minute - 0; minute <= 59; minute++)
+for (minute = 0; minute <= 59; minute++)
 {
 mTens = minute / 10;
 mUnits = minute % 10;
