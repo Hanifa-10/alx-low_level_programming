@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+#include "holberton.h"
 
 /**
 * main - tests function that prints if integer is positive or negative
