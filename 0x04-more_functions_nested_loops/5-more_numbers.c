@@ -10,7 +10,7 @@
 
 void more_numbers(void)
 {
-int number, tens, units, rows;
+int number, tens, units, row;
 
 for (row = 1; row <= 10; row++)
 {
