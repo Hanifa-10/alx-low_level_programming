@@ -2,11 +2,11 @@
 
 /**
 * _isupper - checks for uppercase letters
-* @c: character to check
 *
+* Describtion: Prints the alphabet with _putchar
+* @c: character to check
 * Return: 0 or 1
 */
-
 
 int _isuper(int c)
 {
