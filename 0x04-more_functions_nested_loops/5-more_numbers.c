@@ -2,6 +2,7 @@
 
 /**
 * more_numbers - entry point
+*
 * Description: Prints the numbers with _putchar
 *
 * Return: void
