@@ -1,11 +1,11 @@
-#include "holberton"
+#include "holberton.h"
 
 /**
 * _isupper - define if a character is uppercase
 *
 * Description: Prints the alphabet with _putchar
 * @c: character to check
-* Return: 0 or 1
+* Return: void
 */
 
 int _isupper(int c)
