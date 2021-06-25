@@ -1,3 +1,6 @@
+#ifndef INV_HOLBERTON_H
+#define INV_HOLBERTON_H
+
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
@@ -10,4 +13,8 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(size);
 void print_number(int n);
+int isPrime(long int a);
+long int biggestFactor(long int a);
+int numDigits(int n);
+#endif
 
