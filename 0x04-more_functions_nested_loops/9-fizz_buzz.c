@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
 * main - print numbers from 1 to 100. Fizz multiple by 3. Buzz multiple by 5.
@@ -28,7 +28,7 @@ if (i < 100)
 _putchar(' ');
 
 else
-putchar('\n');
+_putchar('\n');
 }
 return (0);
 }
