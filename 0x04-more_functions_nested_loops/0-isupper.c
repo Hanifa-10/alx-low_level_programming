@@ -1,15 +1,15 @@
 #include "holberton"
 
 /**
-* _isupper - checks for uppercase letters
+* _isupper - define if a character is uppercase
 *
-* Describtion: Prints the alphabet with _putchar
+* Description: Prints the alphabet with _putchar
 * @c: character to check
 * Return: 0 or 1
 */
 
-int _isuper(int c)
-{
+int _isupper(int c)
+i{
 if (c >= 'A' && c <= 'Z')
 return (1);
 else
