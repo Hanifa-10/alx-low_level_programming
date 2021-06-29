@@ -13,6 +13,6 @@ int i, length;
 for (i = 0; s[i] != '\0'; i++)
 length++;
 
-return (length);
+return (0);
 }
 
