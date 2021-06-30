@@ -1,18 +1,18 @@
 #include "holberton.h"
 
 /**
-* _strlen - return length of a string
+* _strlen - returns the length of a string
 * @s: string
-* Return: always length (success)
+* Return: length of s
 */
 
 int _strlen(char *s)
 {
-int i, length;
+int i = 0;
 
-for (i = 0; s[i] != '\0'; i++)
-length++;
+while (*(s + i))
+	i++;
 
-return (0);
+return (i);
 }
 
