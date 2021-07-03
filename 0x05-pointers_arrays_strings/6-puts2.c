@@ -5,7 +5,7 @@
 * with the first character , followed by a new line.
 * @str: string to print
 *
-* Return: Always return 0
+* Return: void
 */
 void puts2(char *str)
 {
@@ -17,6 +17,6 @@ _putchar(*(str + i));
 i = i + 2;
 }
 _putchar('\n');
-return (0);
+return (void);
 }
 
