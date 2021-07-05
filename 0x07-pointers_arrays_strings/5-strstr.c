@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stddef.h> /* to compile NULL */
 
 /**
 * _strstr - locates a substring
@@ -18,7 +19,7 @@ for (j = 0; needle[j] != '\0'; j++)
 if (haystack[i + j] != needle[j])
 break;
 }
-if (!needle[j];)
+if (!needle[j])
 return (&haystack[i]);
 }
 return (NULL);
