@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stddef.h>/* to compile NULL */
 
 /**
 * _strchr - locates a character in a string
@@ -17,6 +18,6 @@ if (s[i] == c)
 return (&s[i]);
 }
 
-return (0);
+return (NULL);
 }
 
