@@ -14,6 +14,6 @@ if (i * i > n)
 return (-1);
 if (i * i == n)
 return (i);
-return (_sqrt_recursion(n, i + 1));
+return (_sqrt_recursion(n));
 }
 
