@@ -7,6 +7,9 @@
 * Return: -1 if n does not have natural square root
 */
 
+int func(root, square)
+{
+
 int _sqrt_recursion(int n)
 {
 int i;
