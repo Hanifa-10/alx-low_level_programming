@@ -8,7 +8,7 @@
 * Return: 0 always for success
 */
 
-int main(int argc, char*argv[])
+int main(int argc, char *argv[])
 
 {
 printf("%s\n", argv[argc - 1]);
