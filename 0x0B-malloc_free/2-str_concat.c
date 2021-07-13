@@ -30,7 +30,7 @@ if (ar == NULL)
 return (NULL);
 for (i = 0; s1[i]; i++)
 ar[i] = s1[i];
-for (j = 0; s2[j]; i++; j++)
+for (j = 0; s2[j]; j++)
 ar[i] = s2[j];
 ar[i] = '\0';
 return (ar);
