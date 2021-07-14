@@ -7,7 +7,7 @@
 * @ac: integer
 * @av: char pointer to pointer
 *
-* Return: 0
+* Return: pointer to new string else return NULL
 */
 
 char *argstostr(int ac, char **av)
