@@ -6,26 +6,26 @@
 * strtow - splits string into words
 * @str: string
 *
-* Return: 0
+* Return: pointer to an array of string, else NULL
 */
 
 char **strtow(char *str)
 {
+int i;
+char *s1
+char s;
+if (*str)
+return (NULL)
+for (i = 0; *str; i++)
+{
+}
 
-char *s;
-int len, i;
-
-while (str[len] != '\0')
-len++;
-
-s = malloc(sizeof(char) * (len + 1));
-if (str == NULL || *str == '\0' || s == NULL)
+s = malloc(i * sizeof(int) + 1);
+if (s == NULL)
 return (NULL);
+s1 = "school";
 
-
-	for (i = 0; i < len; i++)
-s[i] = str[len];
-
-return (s);
+return (str);
 
 }
+
