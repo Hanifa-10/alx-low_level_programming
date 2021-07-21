@@ -13,6 +13,6 @@ if (!f)
 return;
 if (!name)
 return;
-(*f)(name);
+f(name);
 }
 
