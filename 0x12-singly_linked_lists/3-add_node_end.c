@@ -6,7 +6,7 @@
 /**
 * add_node_end - adds a new node at the end of a list_t list
 * @head: first node
-* @str string
+* @str: string
 * Return: the address of the new element or null if it failed
 */
 
@@ -16,7 +16,7 @@ list_t *new;
 list_t *temp = *head;
 int len = 0;
 
-while (str[len]
+while (str[len])
 len++;
 
 new = malloc(sizeof(list_t));
