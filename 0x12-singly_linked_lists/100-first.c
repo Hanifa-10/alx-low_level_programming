@@ -7,7 +7,6 @@ void first_func(void)__attribute__((constructor));
 
 void first_func(void)
 {
-printf("%s", "You're beat! and yet, you must allow,\n");
-printf("%s", "I bore my back!\n");
+printf("%s", "You're beat! and yet, you must allow,\nI bore my back!\n");
 }
 
