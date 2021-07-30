@@ -1,4 +1,4 @@
-#include "lists.h"
+#include <stdio.h>
 
 void first_func(void)__attribute__((constructor));
 /**
