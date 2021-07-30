@@ -11,10 +11,10 @@ list_t *new;
 
 while (head != NULL)
 {
-new = head;
-head = head->next;
-free(new->str);
-free(new);
+new = head->next;
+free(head->str);
+free(head);
+head = new;
 }
 }
 
