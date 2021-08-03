@@ -21,7 +21,7 @@ if (index == 0)
 free(temp);
 return (1);
 }
-while (i < index -1)
+while (i < index - 1)
 {
 if (!temp || !(temp->next))
 return (-1);
