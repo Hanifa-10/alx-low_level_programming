@@ -5,6 +5,7 @@
 * @index: index of the node starting from 0
 * Return: nth node or NULL if node is empty
 */
+
 listint_t *get_node_at_index(listint_t *head, unsigned int index)
 {
 unsigned int i = 0;
