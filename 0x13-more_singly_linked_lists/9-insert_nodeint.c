@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* insert_node_at_index - function to insert a new nodeat a given position
+* insert_nodeint_at_index - function to insert a new nodeat a given position
 * @idx: the index of the list to insert the new node
 * @head: head node
 * @n: data to insert in the new node
@@ -36,7 +36,7 @@ new->next = temp->next;
 temp->next = new;
 return (new);
 }
-else 
+else
 temp = temp->next;
 }
 return (NULL);
