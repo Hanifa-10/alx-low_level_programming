@@ -20,7 +20,7 @@ for (i = 0; b[i] != '\0'; i++)
 if (b[i] == '0')
 convert = convert * 2;
 else if (b[i] == '1')
-convert = conv * 2 + 1;
+convert = convert * 2 + 1;
 else
 return (0);
 }
