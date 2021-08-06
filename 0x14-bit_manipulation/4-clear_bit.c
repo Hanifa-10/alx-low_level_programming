@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* clear_bit - functions that sets the value of a bit to 0 at a given index
+* clear_bit - functions that clears the value of a bit to 0 at a given index
 * @n: number of bits
-* @index: index of the bit you want to set
+* @index: index of the bit you want to clear
 * Return: 1 if it worked , or -1 if an error occurred
 */
 
