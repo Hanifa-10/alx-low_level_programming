@@ -23,15 +23,18 @@ fd = open(filename, O_RDONLY);
 if (fd == -1)
 return (0);
 r = read(fd, buf, letters);
+close(fd);
 if (r == -1)
 return (0);
 
 w = write(STDOUT_FILENO, buf, r);
 
+free(buf);
+
 if (w == -1)
 return (0);
 
-close(fd);
-return (w);
+
+return (r);
 }
 
