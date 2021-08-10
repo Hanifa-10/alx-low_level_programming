@@ -6,9 +6,9 @@
 * Return: 1 on success , -1 on failure, -1 if filename or text_content is NULL
 */
 
-int create_file(const char *file name, char *text_content)
+int create_file(const char *filename, char *text_content)
 {
-int fd, we, len = 0;
+int fd, w, len = 0;
 if (!filename)
 return (-1);
 if (!text_content)
