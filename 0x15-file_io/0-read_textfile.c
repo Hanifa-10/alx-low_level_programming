@@ -14,7 +14,7 @@ ssize_t r, w;
 char *buf;
 
 buf = malloc(sizeof(char) * letters);
-if (!buf)
+if (!buf || !filename)
 return (0);
 
 fd = open(filename, O_RDONLY);
