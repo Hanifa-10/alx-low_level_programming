@@ -15,7 +15,7 @@ return (-1);
 fd = open(filename, O_WRONLY | O_APPEND);
 if (fd == -1)
 return (-1);
-if (!text_content)
+if (text_content == NULL)
 return (-1);
 
 while (text_content && text_content[len])
