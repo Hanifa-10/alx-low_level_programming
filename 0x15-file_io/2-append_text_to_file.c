@@ -18,7 +18,7 @@ return (-1);
 if (!text_content)
 return (-1);
 
-while (text_content && text_content[len]
+while (text_content && text_content[len])
 len++;
 
 w = write(fd, text_content, len);
@@ -28,5 +28,6 @@ if (w == -1)
 return (-1);
 
 return (1);
+
 }
 
