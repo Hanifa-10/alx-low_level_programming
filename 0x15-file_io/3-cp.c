@@ -26,7 +26,7 @@ while ((r = read(f_from, buf, BUFSIZ)) > 0)
 if (f_to < 0 || write(f_to, buf, r) != r)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
-cloose(f_from);
+close(f_from);
 exit(99);
 }
 }
